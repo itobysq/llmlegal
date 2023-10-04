@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.top {
+  align-self: flex-start;
+  border: 2px solid blue;
+}
+
+.middle {
+  align-self: center;
+  border: 2px solid blue;
+}
+
+.bottom {
+  align-self: flex-end;
+  border: 2px solid blue;
+}

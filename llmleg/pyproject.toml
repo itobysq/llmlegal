@@ -7,6 +7,8 @@ authors = ["Toby <toby.sachs.quintana@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 pdfminer-six = "^20221105"
+keyring = "^24.2.0"
+requests = "^2.31.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
