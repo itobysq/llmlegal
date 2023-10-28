@@ -9,9 +9,13 @@ python = "^3.11"
 pdfminer-six = "^20221105"
 keyring = "^24.2.0"
 requests = "^2.31.0"
+langchain = "^0.0.315"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.2"
 
 [build-system]
 requires = ["poetry>=1.6"]

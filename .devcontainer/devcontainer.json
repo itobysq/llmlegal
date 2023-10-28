@@ -1,0 +1,11 @@
+{
+    "name": "Patent Petitioner Codespace",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "name-of-the-main-service",
+    "workspaceFolder": "./llmleg",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "some.extension",
+        "another.extension"
+    ]
+}
